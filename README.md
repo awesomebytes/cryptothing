@@ -76,7 +76,7 @@ I generated a lot of images...
 
 I tried to filter the image by moving to HSV color space and filter by value.
 
-1[qrcode_appearing.gif](qrcode_appearing.gif)
+![qrcode_appearing.gif](qrcode_appearing.gif)
 
 From that images I tried to re-generate the QRcode taking into account its a 210x210 pixel images where every 10 pixels would represent a bit. So if I have enough white pixels in a 10x10 square that may be a colored square.
 
@@ -84,7 +84,7 @@ I had no idea what would be a good strategy so I just bruteforced generating a b
 
 Random results:
 
-![fixed_img_pixelmin_13_minval_35.jpg](fixed_img_pixelmin_13_minval_35.jpg)
+![generated_images/fixed_img_pixelmin_13_minval_35.jpg](generated_images/fixed_img_pixelmin_13_minval_35.jpg)
 
 All images are in the [generated_images](generated_images) folder.
 
